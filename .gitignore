@@ -1,0 +1,39 @@
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# SQLite database
+*.sqlite3
+
+# Environment variables and sensitive data
+.env
+.flaskenv
+*.log
+
+# Media and static files (if served locally for development)
+/media/
+/static/
+/diary_idea_project_env
+
+# IDE and editor settings (examples for common IDEs)
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Testing and coverage reports
+.tox/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Deployment files
+*.tar.gz
+*.zip
